@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "piloto.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bycontract": "^2.0.11",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.5",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.5",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
